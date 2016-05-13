@@ -14,6 +14,7 @@
 		CEDE8C761CE599960075F749 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CEDE8C741CE599960075F749 /* LaunchScreen.storyboard */; };
 		CEDE8C811CE599960075F749 /* TetheringStatusBarSampleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEDE8C801CE599960075F749 /* TetheringStatusBarSampleTests.swift */; };
 		CEDE8C8C1CE599960075F749 /* TetheringStatusBarSampleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEDE8C8B1CE599960075F749 /* TetheringStatusBarSampleUITests.swift */; };
+		CEDE8C9A1CE59A5E0075F749 /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEDE8C991CE59A5E0075F749 /* TableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		CEDE8C871CE599960075F749 /* TetheringStatusBarSampleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TetheringStatusBarSampleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CEDE8C8B1CE599960075F749 /* TetheringStatusBarSampleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TetheringStatusBarSampleUITests.swift; sourceTree = "<group>"; };
 		CEDE8C8D1CE599960075F749 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CEDE8C991CE59A5E0075F749 /* TableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +101,7 @@
 			children = (
 				CEDE8C6B1CE599960075F749 /* AppDelegate.swift */,
 				CEDE8C6D1CE599960075F749 /* ViewController.swift */,
+				CEDE8C991CE59A5E0075F749 /* TableViewController.swift */,
 				CEDE8C6F1CE599960075F749 /* Main.storyboard */,
 				CEDE8C721CE599960075F749 /* Assets.xcassets */,
 				CEDE8C741CE599960075F749 /* LaunchScreen.storyboard */,
@@ -257,6 +260,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				CEDE8C6E1CE599960075F749 /* ViewController.swift in Sources */,
+				CEDE8C9A1CE59A5E0075F749 /* TableViewController.swift in Sources */,
 				CEDE8C6C1CE599960075F749 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
