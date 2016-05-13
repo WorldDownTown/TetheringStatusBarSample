@@ -1,0 +1,507 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CEDE8C6C1CE599960075F749 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEDE8C6B1CE599960075F749 /* AppDelegate.swift */; };
+		CEDE8C6E1CE599960075F749 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEDE8C6D1CE599960075F749 /* ViewController.swift */; };
+		CEDE8C711CE599960075F749 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CEDE8C6F1CE599960075F749 /* Main.storyboard */; };
+		CEDE8C731CE599960075F749 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CEDE8C721CE599960075F749 /* Assets.xcassets */; };
+		CEDE8C761CE599960075F749 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CEDE8C741CE599960075F749 /* LaunchScreen.storyboard */; };
+		CEDE8C811CE599960075F749 /* TetheringStatusBarSampleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEDE8C801CE599960075F749 /* TetheringStatusBarSampleTests.swift */; };
+		CEDE8C8C1CE599960075F749 /* TetheringStatusBarSampleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEDE8C8B1CE599960075F749 /* TetheringStatusBarSampleUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CEDE8C7D1CE599960075F749 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CEDE8C601CE599960075F749 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CEDE8C671CE599960075F749;
+			remoteInfo = TetheringStatusBarSample;
+		};
+		CEDE8C881CE599960075F749 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CEDE8C601CE599960075F749 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CEDE8C671CE599960075F749;
+			remoteInfo = TetheringStatusBarSample;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CEDE8C681CE599960075F749 /* TetheringStatusBarSample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TetheringStatusBarSample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CEDE8C6B1CE599960075F749 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		CEDE8C6D1CE599960075F749 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		CEDE8C701CE599960075F749 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CEDE8C721CE599960075F749 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CEDE8C751CE599960075F749 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CEDE8C771CE599960075F749 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CEDE8C7C1CE599960075F749 /* TetheringStatusBarSampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TetheringStatusBarSampleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CEDE8C801CE599960075F749 /* TetheringStatusBarSampleTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TetheringStatusBarSampleTests.swift; sourceTree = "<group>"; };
+		CEDE8C821CE599960075F749 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CEDE8C871CE599960075F749 /* TetheringStatusBarSampleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TetheringStatusBarSampleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CEDE8C8B1CE599960075F749 /* TetheringStatusBarSampleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TetheringStatusBarSampleUITests.swift; sourceTree = "<group>"; };
+		CEDE8C8D1CE599960075F749 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CEDE8C651CE599960075F749 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CEDE8C791CE599960075F749 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CEDE8C841CE599960075F749 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CEDE8C5F1CE599960075F749 = {
+			isa = PBXGroup;
+			children = (
+				CEDE8C6A1CE599960075F749 /* TetheringStatusBarSample */,
+				CEDE8C7F1CE599960075F749 /* TetheringStatusBarSampleTests */,
+				CEDE8C8A1CE599960075F749 /* TetheringStatusBarSampleUITests */,
+				CEDE8C691CE599960075F749 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CEDE8C691CE599960075F749 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CEDE8C681CE599960075F749 /* TetheringStatusBarSample.app */,
+				CEDE8C7C1CE599960075F749 /* TetheringStatusBarSampleTests.xctest */,
+				CEDE8C871CE599960075F749 /* TetheringStatusBarSampleUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CEDE8C6A1CE599960075F749 /* TetheringStatusBarSample */ = {
+			isa = PBXGroup;
+			children = (
+				CEDE8C6B1CE599960075F749 /* AppDelegate.swift */,
+				CEDE8C6D1CE599960075F749 /* ViewController.swift */,
+				CEDE8C6F1CE599960075F749 /* Main.storyboard */,
+				CEDE8C721CE599960075F749 /* Assets.xcassets */,
+				CEDE8C741CE599960075F749 /* LaunchScreen.storyboard */,
+				CEDE8C771CE599960075F749 /* Info.plist */,
+			);
+			path = TetheringStatusBarSample;
+			sourceTree = "<group>";
+		};
+		CEDE8C7F1CE599960075F749 /* TetheringStatusBarSampleTests */ = {
+			isa = PBXGroup;
+			children = (
+				CEDE8C801CE599960075F749 /* TetheringStatusBarSampleTests.swift */,
+				CEDE8C821CE599960075F749 /* Info.plist */,
+			);
+			path = TetheringStatusBarSampleTests;
+			sourceTree = "<group>";
+		};
+		CEDE8C8A1CE599960075F749 /* TetheringStatusBarSampleUITests */ = {
+			isa = PBXGroup;
+			children = (
+				CEDE8C8B1CE599960075F749 /* TetheringStatusBarSampleUITests.swift */,
+				CEDE8C8D1CE599960075F749 /* Info.plist */,
+			);
+			path = TetheringStatusBarSampleUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CEDE8C671CE599960075F749 /* TetheringStatusBarSample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CEDE8C901CE599960075F749 /* Build configuration list for PBXNativeTarget "TetheringStatusBarSample" */;
+			buildPhases = (
+				CEDE8C641CE599960075F749 /* Sources */,
+				CEDE8C651CE599960075F749 /* Frameworks */,
+				CEDE8C661CE599960075F749 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TetheringStatusBarSample;
+			productName = TetheringStatusBarSample;
+			productReference = CEDE8C681CE599960075F749 /* TetheringStatusBarSample.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CEDE8C7B1CE599960075F749 /* TetheringStatusBarSampleTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CEDE8C931CE599960075F749 /* Build configuration list for PBXNativeTarget "TetheringStatusBarSampleTests" */;
+			buildPhases = (
+				CEDE8C781CE599960075F749 /* Sources */,
+				CEDE8C791CE599960075F749 /* Frameworks */,
+				CEDE8C7A1CE599960075F749 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CEDE8C7E1CE599960075F749 /* PBXTargetDependency */,
+			);
+			name = TetheringStatusBarSampleTests;
+			productName = TetheringStatusBarSampleTests;
+			productReference = CEDE8C7C1CE599960075F749 /* TetheringStatusBarSampleTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		CEDE8C861CE599960075F749 /* TetheringStatusBarSampleUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CEDE8C961CE599960075F749 /* Build configuration list for PBXNativeTarget "TetheringStatusBarSampleUITests" */;
+			buildPhases = (
+				CEDE8C831CE599960075F749 /* Sources */,
+				CEDE8C841CE599960075F749 /* Frameworks */,
+				CEDE8C851CE599960075F749 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CEDE8C891CE599960075F749 /* PBXTargetDependency */,
+			);
+			name = TetheringStatusBarSampleUITests;
+			productName = TetheringStatusBarSampleUITests;
+			productReference = CEDE8C871CE599960075F749 /* TetheringStatusBarSampleUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CEDE8C601CE599960075F749 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = com.shoji;
+				TargetAttributes = {
+					CEDE8C671CE599960075F749 = {
+						CreatedOnToolsVersion = 7.3;
+					};
+					CEDE8C7B1CE599960075F749 = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = CEDE8C671CE599960075F749;
+					};
+					CEDE8C861CE599960075F749 = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = CEDE8C671CE599960075F749;
+					};
+				};
+			};
+			buildConfigurationList = CEDE8C631CE599960075F749 /* Build configuration list for PBXProject "TetheringStatusBarSample" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CEDE8C5F1CE599960075F749;
+			productRefGroup = CEDE8C691CE599960075F749 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CEDE8C671CE599960075F749 /* TetheringStatusBarSample */,
+				CEDE8C7B1CE599960075F749 /* TetheringStatusBarSampleTests */,
+				CEDE8C861CE599960075F749 /* TetheringStatusBarSampleUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CEDE8C661CE599960075F749 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CEDE8C761CE599960075F749 /* LaunchScreen.storyboard in Resources */,
+				CEDE8C731CE599960075F749 /* Assets.xcassets in Resources */,
+				CEDE8C711CE599960075F749 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CEDE8C7A1CE599960075F749 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CEDE8C851CE599960075F749 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CEDE8C641CE599960075F749 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CEDE8C6E1CE599960075F749 /* ViewController.swift in Sources */,
+				CEDE8C6C1CE599960075F749 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CEDE8C781CE599960075F749 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CEDE8C811CE599960075F749 /* TetheringStatusBarSampleTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CEDE8C831CE599960075F749 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CEDE8C8C1CE599960075F749 /* TetheringStatusBarSampleUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CEDE8C7E1CE599960075F749 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CEDE8C671CE599960075F749 /* TetheringStatusBarSample */;
+			targetProxy = CEDE8C7D1CE599960075F749 /* PBXContainerItemProxy */;
+		};
+		CEDE8C891CE599960075F749 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CEDE8C671CE599960075F749 /* TetheringStatusBarSample */;
+			targetProxy = CEDE8C881CE599960075F749 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CEDE8C6F1CE599960075F749 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CEDE8C701CE599960075F749 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CEDE8C741CE599960075F749 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CEDE8C751CE599960075F749 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CEDE8C8E1CE599960075F749 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CEDE8C8F1CE599960075F749 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CEDE8C911CE599960075F749 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = TetheringStatusBarSample/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.shoji.TetheringStatusBarSample;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		CEDE8C921CE599960075F749 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = TetheringStatusBarSample/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.shoji.TetheringStatusBarSample;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		CEDE8C941CE599960075F749 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = TetheringStatusBarSampleTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.shoji.TetheringStatusBarSampleTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TetheringStatusBarSample.app/TetheringStatusBarSample";
+			};
+			name = Debug;
+		};
+		CEDE8C951CE599960075F749 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = TetheringStatusBarSampleTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.shoji.TetheringStatusBarSampleTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TetheringStatusBarSample.app/TetheringStatusBarSample";
+			};
+			name = Release;
+		};
+		CEDE8C971CE599960075F749 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = TetheringStatusBarSampleUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.shoji.TetheringStatusBarSampleUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = TetheringStatusBarSample;
+			};
+			name = Debug;
+		};
+		CEDE8C981CE599960075F749 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = TetheringStatusBarSampleUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.shoji.TetheringStatusBarSampleUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = TetheringStatusBarSample;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CEDE8C631CE599960075F749 /* Build configuration list for PBXProject "TetheringStatusBarSample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CEDE8C8E1CE599960075F749 /* Debug */,
+				CEDE8C8F1CE599960075F749 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CEDE8C901CE599960075F749 /* Build configuration list for PBXNativeTarget "TetheringStatusBarSample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CEDE8C911CE599960075F749 /* Debug */,
+				CEDE8C921CE599960075F749 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		CEDE8C931CE599960075F749 /* Build configuration list for PBXNativeTarget "TetheringStatusBarSampleTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CEDE8C941CE599960075F749 /* Debug */,
+				CEDE8C951CE599960075F749 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		CEDE8C961CE599960075F749 /* Build configuration list for PBXNativeTarget "TetheringStatusBarSampleUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CEDE8C971CE599960075F749 /* Debug */,
+				CEDE8C981CE599960075F749 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CEDE8C601CE599960075F749 /* Project object */;
+}
